@@ -1,10 +1,10 @@
+## CV_Record_Video
+
 OpenCV를 활용하여 실시간 CCTV 스트리밍 영상을 확인하고 녹화할 수 있는 컴퓨터 비전 프로그램입니다. 카메라가 없는 환경을 고려하여 공공데이터포털의 RTSP 주소를 활용하였습니다.
 
 ---
 
 ##  실행 화면 (Demo)*
-
-### 2. 기능 시연 (녹화 및 일시정지)
 <img width="638" height="488" alt="스크린샷 2026-03-17 024405" src="https://github.com/user-attachments/assets/81736ff8-aae4-43a5-8efe-405f4188567e" />
 *<p align="center">Space키를 이용한 녹화(REC) 및 S키를 이용한 일시정지(PAUSED) 시연 영상입니다.</p>*
 
