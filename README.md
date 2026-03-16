@@ -1,2 +1,26 @@
-# CV_Record_Video
-컴퓨터 비전 (비디오 녹화 프로그램)
+<img width="638" height="488" alt="스크린샷 2026-03-17 024405" src="https://github.com/user-attachments/assets/967d3b6a-89fc-4d18-99e5-8b3776ba925f" /># 📽️ Smart Video Recorder (CV_Record_Video)
+
+OpenCV를 활용하여 실시간 CCTV 스트리밍 영상을 확인하고 녹화할 수 있는 컴퓨터 비전 프로그램입니다. 카메라가 없는 환경을 고려하여 공공데이터포털의 RTSP 주소를 활용하였습니다.
+
+---
+
+##  실행 화면 (Demo)*
+
+### 2. 기능 시연 (녹화 및 일시정지)
+<img width="638" height="488" alt="스크린샷 2026-03-17 024405" src="https://github.com/user-attachments/assets/81736ff8-aae4-43a5-8efe-405f4188567e" />
+*<p align="center">Space키를 이용한 녹화(REC) 및 S키를 이용한 일시정지(PAUSED) 시연 영상입니다.</p>*
+
+---
+
+## ✨ 주요 기능
+
+### 필수 기능 (미션 완수)
+* **실시간 영상 표시**: `cv.VideoCapture`를 이용해 RTSP 스트리밍 영상을 화면에 출력합니다.
+* **동영상 저장**: `cv.VideoWriter`를 활용하여 `XVID` 코덱 기반의 `.avi` 파일로 영상을 저장합니다.
+* **모드 변환 (Space)**: Space 키를 누를 때마다 Record(녹화) 모드와 Preview 모드가 전환됩니다.
+* **녹화 표시**: Record 모드일 때 화면 왼쪽 상단에 빨간색 원과 `REC` 문구를 표시하여 녹화 중임을 알립니다.
+* **프로그램 종료 (ESC)**: ESC 키를 누르면 안전하게 자원을 해제하고 프로그램을 종료합니다.
+
+### 추가 기능 (5점 대행)
+* **화면 일시정지 (S/s)**: `S` 키를 누르면 영상 캡처를 잠시 멈추고 화면 중앙에 `PAUSED` 문구를 띄웁니다.
+* **실시간 타임스탬프**: 화면 하단에 현재 날짜와 시간을 실시간으로 표시하여 녹화 시점 정보를 제공합니다.
