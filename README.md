@@ -1,5 +1,3 @@
-<img width="638" height="488" alt="스크린샷 2026-03-17 024405" src="https://github.com/user-attachments/assets/967d3b6a-89fc-4d18-99e5-8b3776ba925f" /># 📽️ Smart Video Recorder (CV_Record_Video)
-
 OpenCV를 활용하여 실시간 CCTV 스트리밍 영상을 확인하고 녹화할 수 있는 컴퓨터 비전 프로그램입니다. 카메라가 없는 환경을 고려하여 공공데이터포털의 RTSP 주소를 활용하였습니다.
 
 ---
